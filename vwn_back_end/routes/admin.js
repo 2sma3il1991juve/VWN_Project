@@ -4,6 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const exportsJWY = require('express-jwt');
 const jwt = require('jsonwebtoken');
+const bcrypt = require('bcrypt');
 
 const router = express.Router();
 router.use(bodyParser.json());
@@ -80,8 +81,10 @@ router.post('/login', (req, res) => {
         else {
             let isAdmin = false;
             results.forEach(result => {
-                if(req.body.username === result.username && req.body.password === result.password) {
-                    isAdmin = true;
+                if(req.body.username === result.username) {
+                    if(bcrypt.compareSync(req.body.password, result.password)) {
+                        isAdmin = true;
+                    }
                 }
             });
             if (!isAdmin) {
