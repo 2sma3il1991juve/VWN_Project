@@ -26,3 +26,11 @@
         width: 50%;
     }
 }
+@media (max-width: 450px) {
+    .h_f_element {
+        width: 100%;
+    }
+    .mapDiv {
+        width: 0%;
+    }
+}
