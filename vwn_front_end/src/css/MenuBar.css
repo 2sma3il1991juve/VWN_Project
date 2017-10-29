@@ -1,0 +1,30 @@
+.menuBar {
+    margin: 0;
+    padding: 0;
+    background-color: #003554;
+    border-style: outset;
+    border-width: 1px;
+    display: flex;
+    align-items: stretch;
+}
+.menuUL {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+.menuBarItem {
+    float: left;
+    color: white;
+    padding: 20px;
+}
+.menuBarItem:hover:not(.activeMenuBarItem) {
+    background-color: #051923;
+    cursor: pointer;
+}
+.activeMenuBarItem {
+    background-color: #051923;
+}
+#logo {
+    height: 60px;
+}
