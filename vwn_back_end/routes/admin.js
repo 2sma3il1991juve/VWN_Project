@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const exportsJWY = require('express-jwt');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt-nodejs');
 
 const router = express.Router();
 router.use(bodyParser.json());

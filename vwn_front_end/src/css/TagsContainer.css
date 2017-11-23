@@ -1,8 +1,9 @@
 .mainContainer {
     margin: 0px;
     padding: 0px;
-    background-color: #5d98b3;
+    background-color: #ffffff;
     border-style: outset;
+    width: 100%;
     border-width: 1px;
 }
 .tagsContainer, .toggleContainer {
@@ -18,9 +19,8 @@
 .btn {
   margin: 2px;
   padding: 9px;
-  color: white;
-  background-color: rgba(21, 21, 116, 0.329);
-  border: 1px solid black;
+  color: #333c44;
+  background-color: #e8e7e2;
   border-radius: 7px;
   outline: none;
   font-size: 0.8em;
@@ -28,11 +28,13 @@
 }
 .btn:hover {
   padding: 8px;
-  background-color: #051923;
+  background-color: #333c44;
   border-width: 2px;
+  color: white;
 }
 .btnSelected {
-  background-color: #051923;
+  background-color: #ed2116;
+  color: white;
 }
 .tButtonLeft {
   border-radius: 7px 0px 0px 7px;

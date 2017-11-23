@@ -14,9 +14,9 @@ export default class Map extends Component {
     componentDidMount() {
         this.markers = [];
         this.map = new maps.Map(this.mapDiv, {
-            zoom: 7,
+            zoom: 8,
             center: {
-                lat: 52.153406,
+                lat: 52.183406,
                 lng: 5.292707
             }
         });

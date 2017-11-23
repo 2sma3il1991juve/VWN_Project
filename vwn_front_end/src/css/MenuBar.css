@@ -1,7 +1,7 @@
 .menuBar {
     margin: 0;
     padding: 0;
-    background-color: #003554;
+    background-color: #e8e7e2;
     border-style: outset;
     border-width: 1px;
     display: flex;
@@ -15,15 +15,16 @@
 }
 .menuBarItem {
     float: left;
-    color: white;
+    color: #ed2116;
     padding: 20px;
 }
 .menuBarItem:hover:not(.activeMenuBarItem) {
-    background-color: #051923;
+    background-color: #e8e7e2;
     cursor: pointer;
 }
 .activeMenuBarItem {
-    background-color: #051923;
+    background-color: #ed2116;
+    color: white;
 }
 #logo {
     height: 60px;
