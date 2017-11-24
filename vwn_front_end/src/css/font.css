@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SolexRegular';
+  src: url('../fonts/SolexRegular.eot');
+  src: url('../fonts/SolexRegular.woff2') format('woff2'),
+       url('../fonts/SolexRegular.woff') format('woff'),
+       url('../fonts/SolexRegular.ttf') format('truetype'),
+       url('../fonts/SolexRegular.svg#SolexRegular') format('svg'),
+       url('../fonts/SolexRegular.eot?#iefix') format('embedded-opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+

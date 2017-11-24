@@ -2,9 +2,7 @@
     margin: 0px;
     padding: 0px;
     background-color: #ffffff;
-    border-style: outset;
     width: 100%;
-    border-width: 1px;
 }
 .tagsContainer, .toggleContainer {
     margin: 0px;
@@ -17,19 +15,18 @@
     flex-wrap: row nowrap;
 }
 .btn {
-  margin: 2px;
-  padding: 9px;
+  margin: 0.2rem;
+  padding: 0.5rem;
   color: #333c44;
   background-color: #e8e7e2;
   border-radius: 7px;
   outline: none;
-  font-size: 0.8em;
+  font-size: 0.6em;
   cursor: pointer;
 }
 .btn:hover {
-  padding: 8px;
   background-color: #333c44;
-  border-width: 2px;
+  border-style: outset;
   color: white;
 }
 .btnSelected {

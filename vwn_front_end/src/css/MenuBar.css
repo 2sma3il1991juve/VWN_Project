@@ -1,31 +1,41 @@
 .menuBar {
+    display: flex;  
+    font-family: 'SolexRegular';
+    font-weight: bolder;
     margin: 0;
     padding: 0;
+    border-width: 0;
+    border-style: solid;
     background-color: #e8e7e2;
-    border-style: outset;
-    border-width: 1px;
-    display: flex;
-    align-items: stretch;
+    border-bottom-width: 5px;
+    border-bottom-color: #ed2116;
 }
 .menuUL {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: inline-block;
+    display: inherit;
+    list-style-type: none;  
+    margin-top: 30px;  
 }
-.menuBarItem {
-    float: left;
+.menuBarItem {  
+    margin-right: 5px;
     color: #ed2116;
-    padding: 20px;
+    width: 30px;
+    height: 10px;
+    padding: 5px 5px 15px 10px;   
 }
-.menuBarItem:hover:not(.activeMenuBarItem) {
-    background-color: #e8e7e2;
-    cursor: pointer;
+.menuBarItem:visited:not(.activeMenuBarItem) {
+    text-decoration: none;
 }
+
+.menuBarItem:hover:not(.activeMenuBarItem) { 
+    padding: 5px 5px 15px 10px; 
+    background-color: #ed2116;
+    color: white;
+}   
 .activeMenuBarItem {
+    padding: 5px 5px 15px 10px;
     background-color: #ed2116;
     color: white;
 }
 #logo {
-    height: 60px;
+    height: 70px;
 }

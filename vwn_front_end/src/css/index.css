@@ -4,13 +4,14 @@ html, body, #root {
     padding: 0px;
     font-size: 100%
 }
-body, h1, h2 {
+body{
     font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
     font-weight: normal;
 } 
 h1 {
-    font-size: 1.5em;
+    font-family: 'SolexRegular';
+    font-size: 1em;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 1em;
 }
